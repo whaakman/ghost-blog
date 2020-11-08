@@ -1,0 +1,36 @@
+{{!< default}}
+{{!-- The tag above means - insert everything in this file into the {body} of the default.hbs template --}}
+
+{{!-- The tag below includes the theme header - partials/header.hbs --}}
+{{> header}}
+
+{{!-- The content area on the static page --}}
+<div id="content" class="site-content fadeInDown delay_075s">
+	<main id="main" class="site-main outer">
+
+ {{#get "posts" limit="all" include="tags,author"}}
+                {{#foreach posts}}
+                        <span class="meta-post">
+                            <time datetime="{{date format='DD-MM-YYYY'}}">{{date format="DD MMM YYYY"}}</time>
+                        </span>
+                        <a href="{{url}}">{{{title}}}</a><br>
+                {{/foreach}}
+            {{/get}}
+
+<br />
+<html>
+    Other than writing for my own blog I also write for our company website @ Intercept. You can find these articles below: <br>
+    <br>18 Jul 2019 <a href="https://www.intercept.nl/en/news/managed-services-providers-how-are-you-managing-your-customers/">Managed Services Providers, how are you managing your customers?  </a><br>
+    23 May 2019 <a href="https://www.intercept.nl/en/news/checklist-part-5-gather-performance-insights/">Checklist part 5: Gather performance insights </a><br>
+    25 Apr 2019 <a href="https://www.intercept.nl/en/news/checklist-part-4-determine-your-availability-requirements/">Checklist part 4: Determine your availability requirements </a><br>
+    28 Mar 2019 <a href="https://www.intercept.nl/en/news/checklist-part-3-scaling-on-azure-the-basics/">Checklist part 3: Scaling on Azure - The basics </a><br>
+    14 Mar 2019 <a href="https://www.intercept.nl/en/news/what-do-you-really-get-when-you-perform-a-lift-and-shift-to-azure/">What do you really get when you perform a lift and shift to Azure? </a><br>
+    18 Feb 2019 <a href="https://www.intercept.nl/en/news/checklist-part-2-choose-your-architecture-before-you-migrate-to-azure/">Checklist part 2: Choose your architecture before you migrate to Azure </a><br>
+    14 Feb 2019 <a href="https://www.intercept.nl/en/news/checklist-part-1-choose-your-strategy-before-you-migrate-to-azure/">Checklist part 1: Choose your strategy before you migrate to Azure </a><br>
+    17 Jan 2019 <a href="https://www.intercept.nl/en/news/top-5-azure-paas-and-serverless-services-you-dont-want-to-miss-as-an-isv/">Top 5 Azure PaaS and serverless services you don't want to miss as an ISV</a><br>
+    06 Dec 2018 <a href="https://www.intercept.nl/en/news/is-your-software-architecture-ready-for-innovation/">Is your software architecture ready for innovation?</a><br>  
+</html>
+
+
+	</main><!-- .site-main -->
+</div><!-- .site-content -->
