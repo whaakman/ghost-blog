@@ -1639,7 +1639,7 @@ body.hidden-scroll {
 /* Hero */
 .hero-wrap {
   background: #f9f9fb;
-  border-bottom: 1px solid #e5e7e9;
+  border-bottom: 3px solid #3498db;
   margin: 0 0 3.33333em;
   position: relative;
 }
