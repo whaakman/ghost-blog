@@ -908,7 +908,7 @@ img {
     opacity: 0;
   }
   100% {
-    opacity: 0.15;
+    opacity: 1;
   }
 }
 @keyframes fadeInOpacity {
@@ -916,7 +916,7 @@ img {
     opacity: 0;
   }
   100% {
-    opacity: 0.15;
+    opacity: 1;
   }
 }
 .fadeInDown {
