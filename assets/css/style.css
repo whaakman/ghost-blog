@@ -528,7 +528,7 @@ input[type="reset"]:focus,
 input[type="reset"]:active,
 a.button:hover,
 a.button:focus {
-  box-shadow: 0 0 1px 7px rgba(79, 195, 247,  0.15);
+  box-shadow: 0 0 1px 7px rgba(187, 222, 251, 0.6);
   outline: 0;
 }
 
@@ -869,7 +869,7 @@ img {
 .newer-posts:hover,
 .older-posts:hover {
   background: #104e8b;
-  box-shadow: 0 0 1px 7px rgba(79, 195, 247,  0.15);
+  box-shadow: 0 0 1px 7px rgba(187, 222, 251, 0.6);
   color: #fff;
 }
 
@@ -1448,7 +1448,7 @@ body.hidden-scroll {
 .author-avatar .avatar {
   border: 2px solid #104e8b;
   border-radius: 100%;
-  box-shadow: 0 0 1px 7px rgba(79, 195, 247, 0.15);
+  box-shadow: 0 0 1px 7px rgba(187, 222, 251, 0.6);
   display: inline-block;
   height: 70px;
   width: 70px;
@@ -2174,7 +2174,7 @@ body.hidden-scroll {
 
   .sl-wrapper button:hover {
     background: #104e8b;
-    box-shadow: 0 0 1px 7px rgba(79, 195, 247, 0.15);
+    box-shadow: 0 0 1px 7px rgba(187, 222, 251, 0.6);
     color: #fff;
   }
 
