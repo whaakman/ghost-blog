@@ -8,7 +8,7 @@
 <div id="content" class="site-content fadeInDown delay_075s">
 	<main id="main" class="site-main outer">
 
- {{#get "posts" limit="all" include="tags,author"}}
+ {{#get "posts" limit="all" include="tags,authors"}}
                 {{#foreach posts}}
                         <span class="meta-post">
                             <time datetime="{{date format='DD-MM-YYYY'}}">{{date format="DD MMM YYYY"}}</time>
