@@ -4,8 +4,8 @@
 {{!-- The hero section with blog cover image as a background if available --}}
 <div class="hero-wrap">
 
-	{{#if @blog.cover_image}}
-	<div class="hero-wrap-bg" style="background-image: url({{@blog.cover_image}})"></div>
+	{{#if @site.cover_image}}
+	<div class="hero-wrap-bg" style="background-image: url({{@site.cover_image}})"></div>
 	{{/if}}
 
 	{{!-- The tag below includes the theme header - partials/header.hbs --}}

@@ -2,13 +2,13 @@
 <header id="masthead" class="site-header outer">
 	<div class="site-header-inside">
 		<div class="site-branding">
-			{{#if @blog.logo}}
-			<p class="site-logo"><a href="{{@blog.url}}"><img src="{{img_url @blog.logo size="xs"}}" alt="{{@blog.title}}" /></a></p>
+			{{#if @site.logo}}
+			<p class="site-logo"><a href="{{@site.url}}"><img src="{{img_url @site.logo size="xs"}}" alt="{{@site.title}}" /></a></p>
 			{{/if}}
 			{{#is "index"}}
-			{{!--<h1 class="site-title"><a href="{{@blog.url}}">{{@blog.title}}</a></h1>--}}
+			{{!--<h1 class="site-title"><a href="{{@site.url}}">{{@site.title}}</a></h1>--}}
 			{{else}}
-			{{!--<p class="site-title"><a href="{{@blog.url}}">{{@blog.title}}</a></p>--}}
+			{{!--<p class="site-title"><a href="{{@site.url}}">{{@site.title}}</a></p>--}}
 			{{/is}}
 		</div><!-- .site-branding -->
 		<nav id="main-navigation" class="site-navigation" aria-label="Primary Navigation">
